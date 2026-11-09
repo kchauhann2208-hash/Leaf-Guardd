@@ -1,0 +1,59 @@
+/* Main background */
+
+.stApp {
+    background-color: #f4f8f2;
+}
+
+/* Main hero section */
+
+.hero {
+    background: linear-gradient(120deg, #123d29, #38834d);
+    padding: 45px 20px;
+    border-radius: 18px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+
+.hero h3 {
+    color: #e0f2df;
+}
+
+.hero p {
+    color: #d6ead8;
+    font-size: 17px;
+}
+
+/* Headings */
+
+h1, h2, h3 {
+    color: #194d32;
+}
+
+/* Buttons */
+
+.stButton button {
+    background-color: #267344;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.stButton button:hover {
+    background-color: #174d2d;
+    color: white;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+    background-color: #e4efdf;
+}
